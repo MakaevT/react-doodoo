@@ -1,0 +1,88 @@
+.app{
+  margin: auto;
+  width: 450px; 
+}
+
+.header{
+  font-size: 22px;
+  text-align: center;
+  padding: 15px,0;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 15px;
+}
+
+.form{
+  display: flex;
+}
+
+.form input{
+  flex: 1;
+  height: 30px;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.form button{
+  background-color: #634BF5;
+  color: white;
+  pad: 15px, 30px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todos{
+
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #E5E5E5;
+  align-items: center;
+}
+
+.favorite button{
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  outline: none;
+}
+
+.selected{
+  background-color: rgb(245, 219, 136);
+  margin-top: 25px;
+}
+
+.selected .favorite span{
+  color: rgb(255, 251, 0);
+}
+
+.favorite{
+  padding: 0 15px;
+}
+
+.todo-text{
+  flex: 1;
+}
+
+.actions{
+  padding-right: 10px;
+}
+
+.actions button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  outline: none;
+  font-size: 13px;
+}
+
+ 
